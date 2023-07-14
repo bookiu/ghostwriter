@@ -22,10 +22,10 @@
             </div>
         </footer>
 
-        {{ $baseUrl := .Site.BaseUrl | trim "/" }}
-        <script src="{{ $baseURL }}/js/jquery-1.11.3.min.js"></script>
-        <script src="{{ $baseURL }}/js/jquery.fitvids.js"></script>
-        <script src="{{ $baseURL }}/js/scripts.js"></script>
+        {{ $baseUrl := .Site.BaseURL | trim "/" }}
+        <script src="{{ $baseUrl }}/js/jquery-1.11.3.min.js"></script>
+        <script src="{{ $baseUrl }}/js/jquery.fitvids.js"></script>
+        <script src="{{ $baseUrl }}/js/scripts.js"></script>
         {{ partial "extra-in-foot.html" . }}
     </body>
 </html>
